@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/Moviestack_favicon.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="w-full min-h-screen flex flex-col bg-[#D2CCFF]">
+        <div class="flex flex-wrap bg-[#D2CCFF] items-center justify-center ">
+            <img class="w-[80px] h-[80px] bg-white object-cover border border-white rounded-full md:ml-1" src="./img/Moviestack_isotipo.png" alt="logo">
+            <h1 class="flex font-bold text-3xl md:ml-2 md:grow lg:grow ">MOVIESTACK</h1>
+                <nav class="grow p-2 flex justify-center gap-5 md:grow-0 lg:grow-0">
+                    <a class="bg-white text-[#6D38E0] border border-[#6D38E0] rounded p-2 text-lg font-semibold" href="index.html">Home</a>
+                    <a class="bg-[#6D38E0] text-white border border-white rounded p-2 text-lg font-bold" href="movies.html">Movies</a>
+                    <a class="bg-white text-[#6D38E0] border border-[#6D38E0] rounded p-2 text-lg font-semibold" href="">Favs</a>
+                </nav>
+        </div>
+        <header>
+            <img class="w-full md:h-[250px] md:object-cover  lg:h-[340px]" src="./img/banner2.jpg">
+            <h1 class="text-center bg-[#6D38E0] text-white font-bold text-2xl">Movies</h1>
+            
+        </header>
+        <main class="flex grow justify-center ">
+           <div class="flex flex-wrap justify-center p-5" id="content">
+               
+           </div>
+
+        </main>
+        <script src="./data.js"></script>
+        <script src="./index.js"></script>
+
+        <footer class="text-center">Lucas Scarone</footer>
+</body>
+</html>
