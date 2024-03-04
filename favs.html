@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./Moviestack_favicon.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Favs</title>
 </head>
 <body>
-    
+    <div id="layout" class="w-full min-h-screen flex flex-col bg-gradient-to-b from-black via-indigo-500 via-purple-500 to-pink-300">
+        <div class="flex flex-wrap  items-center justify-center xl:h-[100px] 2xl:h-[170px]">
+            <img class="w-[80px] h-[80px] bg-gradient-to-t from-purple-400  object-cover border border-white rounded-full md:ml-1 xl:w-[90px] xl:h-[90px] 2xl:w-[160px] 2xl:h-[160px]  " src="./img/Moviestack_isotipo.png" alt="logo">
+            <h1 class="flex text-white font-bold text-3xl md:ml-2 md:grow lg:grow xl:text-5xl 2xl:text-8xl">MOVIESTACK</h1>
+                <nav class="grow p-2 flex justify-center gap-5 md:grow-0 lg:grow-0">
+                    <a class="bg-white text-[#6D38E0] border border-[#6D38E0] rounded p-2 text-lg font-semibold xl:text-3xl 2xl:text-6xl 2xl:border-4" href="index.html">Home</a>
+                    <a class="bg-white text-[#6D38E0] border border-[#6D38E0] rounded p-2 text-lg font-semibold xl:text-3xl 2xl:text-6xl 2xl:border-4" href="movies.html">Movies</a>
+                    <a class="bg-[#6D38E0] text-white border border-white rounded p-2 text-lg font-bold xl:text-3xl 2xl:text-6xl 2xl:border-4" href="favs.html">Favs</a>
+                </nav>
+        </div>
+        <header>
+            <img class="w-full md:h-[250px] md:object-cover md:object-[0_-150px]  lg:h-[350px] lg:object-[0_-180px] xl:h-[450px] xl:object-[0_-250px] xl:h-[440px] 2xl:h-[770px] 2xl:object-[0_-400px]" src="./img/222222.jpg">
+            <h1 class="text-center bg-gradient-to-t from-purple-500 to-black text-white font-bold text-2xl md:h-12 xl:text-4xl 2xl:text-6xl 2xl:h-[80px]">Favorite</h1>
+            
+        </header>
+        <div id="content" class="flex grow justify-center ">
+            
+        </div>
+    </div>
+    <script type="module" src="./scripts/favs.js"></script>
 </body>
 </html>

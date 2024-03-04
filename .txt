@@ -1,0 +1,16 @@
+// notas crear un evento e tipo clictk
+// cuando detecte el click tome el id
+// data- para generar una propiedad y ponerle el id
+// para conectactar con el article y el icono del click
+// target.dataset.accion para ver donde ocurre el evento 
+
+// agregarlo a la card
+
+svg
+recordatorio 
+arreglar responsive de pag de Detall
+
+
+
+
+
