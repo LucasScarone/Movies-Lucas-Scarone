@@ -17,5 +17,18 @@ fetch(url,init)
 .then((data)=>{
     peliculas = data.movies
     const peliculasid = peliculas.filter(pelicula => listFavs.includes(pelicula.id))
-    renderCards(peliculasid, div, createCard)
+    content.addEventListener('click', (e) => {
+    // detecto el click
+        if (e.target.tagName === 'BUTTON') {
+            const button = e.target;
+            // asigno peliculaFavs elvalor que necesito en el array
+            const peliculaFavs = button.dataset.id;
+            // ahora hago un indexof para buscar si la lista}
+            console.log(peliculaFavs)
+            // tiene ese valor incluido y lo guardo
+            listFavs.filter(listFavsid => listFavsid != peliculaFavs)
+            localStorage.setItem( 'listFavs',JSON.stringify(listFavs))
+            renderCards(listFavs, div, createCard)
+        }   
+    })
 })
